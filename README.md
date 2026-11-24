@@ -81,7 +81,7 @@ content = """
 </body>
 </html>
 """
-
+```
 class MyHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("Request received")
@@ -94,7 +94,7 @@ server_address = ('', 8000)
 httpd = HTTPServer(server_address, MyHandler)
 print("My webserver is running...")
 httpd.serve_forever()
-
+```
 
 ## OUTPUT:
 <img width="1920" height="1080" alt="Screenshot (42) - Copy" src="https://github.com/user-attachments/assets/37f85916-e9ec-4107-b3e0-0285f9913faf" />
